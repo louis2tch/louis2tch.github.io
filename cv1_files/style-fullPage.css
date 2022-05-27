@@ -1,0 +1,31 @@
+.wrapper-page {
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.sec-wrapper .allPages {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    -moz-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    -ms-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    -o-box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
+    border-radius: 0.25rem;
+    background: #fff;
+}
+
+.sec-wrapper .allPages .pt-page {
+    visibility: visible;
+    position: static;
+    box-shadow: none;
+}
+
+.sec-wrapper .allPages .pt-page .pt-content-full {
+    height: 100%;
+    overflow: hidden;
+}
+
+.sec-wrapper .allPages .pt-page .pt-content-full .pt-scrollPdd {
+    padding: 40px !important;
+}
